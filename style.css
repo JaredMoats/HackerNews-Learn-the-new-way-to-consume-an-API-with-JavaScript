@@ -1,0 +1,27 @@
+body {
+  background-color: #f5f7fa;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 100px;
+}
+
+li {
+  margin-top: 40px;
+}
+
+li a {
+  color: #111111;
+  border-bottom: 3px solid #FF4136;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
